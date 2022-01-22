@@ -7,16 +7,16 @@ function App() {
   const [color, setColor] = useState('');
 //   const [ boxColor, setBoxColor ] = useState('');
 
-//   const setBoxColor = (color) => {
-//     color.
+//   const setBoxColorAgain = (color) => {
+//     setBoxColor(color);
+//     console.log (boxColor);
 //   } 
 
 //   const handleSubmit = (e) => {
 //     e.preventDefault();
 //     if (!color) return;
-//     //set box color
+//     setBoxColorAgain(color)
 //     setColor('');
-
 // }
 
   return (
@@ -27,8 +27,7 @@ function App() {
         />
       <ColorInput 
         color={color}
-        setColor={setColor}
-        // handleSubmit={handleSubmit} 
+        setColor={setColor} 
       />
     </div>
   );
