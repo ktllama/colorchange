@@ -5,19 +5,6 @@ import { ColorInput } from './ColorInput';
 
 function App() {
   const [color, setColor] = useState('');
-//   const [ boxColor, setBoxColor ] = useState('');
-
-//   const setBoxColorAgain = (color) => {
-//     setBoxColor(color);
-//     console.log (boxColor);
-//   } 
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     if (!color) return;
-//     setBoxColorAgain(color)
-//     setColor('');
-// }
 
   return (
     <div className="App">

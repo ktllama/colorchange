@@ -26,3 +26,10 @@ input {
 label {
   display: none;
 }
+
+p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 8rem;
+  font-size: xx-large;
+}
