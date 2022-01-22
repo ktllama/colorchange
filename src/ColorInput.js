@@ -3,7 +3,7 @@ import React from 'react';
 export const ColorInput = ({ color, setColor, handleSubmit }) => {
 
   return(
-    <form className="colorinput">
+    <form className="colorinput" onSubmit={handleSubmit}>
         <label htmlFor="colorinput" >color input</label>
         <input
             autoFocus
