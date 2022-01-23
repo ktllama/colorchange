@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const ColorInput = ({ color, setColor, handleSubmit }) => {
+export const ColorInput = ({ color, setColor, isDarkText, setIsDarkText }) => {
 
   return(
-    <form className="colorinput" onSubmit={handleSubmit}>
+    <form className="colorinput">
         <label htmlFor="colorinput" >color input</label>
         <input
             autoFocus
